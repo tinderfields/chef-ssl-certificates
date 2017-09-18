@@ -9,6 +9,8 @@ supports         'debian'
 
 recipe           'ssl_certificates', 'Installs and configures SSL certificates.'
 
+name             'ssl_certificates'
+
 attribute 'ssl_certificates',
   :display_name => 'SSL certificates',
   :description => 'Hash of SSL certificate attributes.',
